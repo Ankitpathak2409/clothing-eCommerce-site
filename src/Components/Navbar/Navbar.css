@@ -1,0 +1,88 @@
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 0.2vw 0.5vw;
+   box-shadow: 0 1px 3px -2px black;
+   max-width: 100%;
+}
+.nav-logo{
+   display: flex;
+   align-items: center;
+}
+.nav-logo img{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    width: 4.8vw;
+}
+.nav-logo p{
+    font-weight:620;
+    color: rgba(13, 13, 43, 0.795);
+    font-size: 1.5vw;
+    margin: 1vw;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8vw;
+}
+.nav-menu hr{
+    border: none;
+    width: 90%;
+    height: 0.1vw;
+    border-radius: 10px;
+    background-color: #ff4141;
+}
+.nav-menu li{
+    font-size: 1.5vw;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.nav-menu li:hover{
+    color: rgba(6, 6, 29, 0.795);
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 3.2vw;
+}
+.nav-login-cart button{
+    padding: 0.9vw 2.2vw;
+    font-size: 1.1vw;
+    font-weight: 400;
+    border: none;
+    border-radius: 30px;
+    width: 10vw;
+    height: auto;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+.nav-login-cart button:active{
+    background-color: rgba(239, 236, 236, 0.578);
+}
+.nav-login-cart img{
+    max-width: 100%;
+    height: auto;
+    width: 2.8vw;
+    margin-right: 3vw;
+}
+.nav-cart-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -6.5vw;
+    margin-top: -3vw;
+    background-color: #ff4141;
+    color: white;
+    font-size: 1vw;
+    padding: 0.1vw 0.6vw ;
+    border-radius: 15px;
+    
+}

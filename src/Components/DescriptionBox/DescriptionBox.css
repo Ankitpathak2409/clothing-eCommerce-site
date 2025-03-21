@@ -1,0 +1,40 @@
+.descriptionbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.7vw;
+    width: 90vw;
+    margin-bottom: 2vw;
+}
+.descriptionbox-navigator{
+    display: flex;
+}
+.descriptionbox-nav{
+    background-color: rgb(220, 220, 220);
+    padding: 1.4vw 1.4vw;
+    font-size: 1.2vw;
+    font-weight: 600;
+    border: 1px solid rgb(168, 167, 167);
+    width: 9vw;
+}
+.descriptionbox-nav-fade{
+    background-color: rgb(241, 243, 243);
+    padding: 1.4vw 1.4vw;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+    border: 1px solid rgb(168, 167, 167);
+    width: 9vw;
+}
+.descriptionbox-description{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    background-color: rgb(238, 239, 239);
+    padding: 1.4vw 2.2vw 4.2vw 2.2vw;
+    box-shadow: black;
+    border: 1px solid rgb(168, 167, 167);
+}
+.descriptionbox-description p{
+    font-size: 1vw;
+    font-weight: 500;
+}
